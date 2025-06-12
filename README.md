@@ -21,3 +21,12 @@ sequence pre-processing with quality control, reference-based sequence
 alignment, read count summarization, explora-tory data analysis, and
 the identification of differentially expressed genes or transcripts
 across selected comparisons.
+
+**Installation from a source repository:**
+
+install.packages("devtools")
+library("devtools")
+devtools::install_github("CarmineFruggiero/inDAGO")
+library("inDAGO")
+inDAGO()
+
