@@ -1,5 +1,6 @@
 
-![inDAGO_logo](https://github.com/user-attachments/assets/fbe46b95-eeb0-407c-8a67-ea420f1832ae)
+![favicon-96x96](https://github.com/user-attachments/assets/fc2d0630-13d8-4cf7-b1bc-a7ee191d270e)
+
 
 **Title:** A Shiny app for dual and bulk RNA-sequencing analysis
 
