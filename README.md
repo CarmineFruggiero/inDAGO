@@ -25,8 +25,12 @@ across selected comparisons.
 **Installation from a source repository:**
 
 install.packages("devtools")
+
 library("devtools")
+
 devtools::install_github("CarmineFruggiero/inDAGO")
+
 library("inDAGO")
+
 inDAGO()
 
