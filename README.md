@@ -22,7 +22,7 @@ alignment, read count summarization, explora-tory data analysis, and
 the identification of differentially expressed genes or transcripts
 across selected comparisons.
 
-**Installation as R package from a source repository:**
+**Installation as R package stored in GitHub repository:**
 
 install.packages("devtools")
 
