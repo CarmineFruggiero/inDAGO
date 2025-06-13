@@ -32,5 +32,5 @@ devtools::install_github("CarmineFruggiero/inDAGO")
 
 library("inDAGO")
 
-inDAGO()
+inDAGO::inDAGO()
 
