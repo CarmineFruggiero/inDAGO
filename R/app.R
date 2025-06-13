@@ -163,6 +163,11 @@
 
 inDAGO <- function(...){
 
+  # Adds a directory of static resources to Shiny's web server, with the given path prefix.
+  shiny::addResourcePath(
+    prefix = "inDAGO",
+    directoryPath = system.file("www", package = "inDAGO")
+  )
 ##### Section3: user interface #####
 ui <- bslib::page_navbar(
   theme = bslib::bs_theme(
@@ -182,9 +187,17 @@ ui <- bslib::page_navbar(
     font_scale = 0.9
   ),
 
+  # insert logo and link to github
+  title = htmltools::tags$a(
+    href = "https://github.com/CarmineFruggiero/inDAGO",
+    htmltools::tags$img(
+      src = "inDAGO/favicon-96x96.png",
+      height = "80px",
+      style = "vertical-align: middle;"
+    )),
 
-  # Title and other page elements
-  title =  htmltools::h3("inDAGO"), # Title of the application
+  window_title = "inDAGO",
+
   fillable = "",
   bslib::nav_spacer(), # Creates space between navigation items
 
